@@ -14,7 +14,7 @@ This program can be run on remix ethereum ide
 
 ### Executing program
 
-just turn on auto cumpile or can compile manually and then after compilation 
+just turn on auto cumpile or can manually compile the code in the file titles ad 'final' in the repository and then after compilation 
 in the deploy section see the addresses and then play with the number of 
 tokens by minting ad burning them and see if it works.
 
