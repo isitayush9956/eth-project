@@ -1,7 +1,23 @@
-# eth-project
-We will create a contract together
-Our contract will have public variables that store the details about Our coin (Token Name, Token Abbrv., Total Supply)
-Our contract will have a mapping of addresses to balances (address => uint)
-We will have a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
-Our contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. It will take an address and value just like the mint functions. It will then deduct the value from the total supply and from the balance of the address.
-Lastly, Our burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
+# Project Title
+
+Creating an ethereum token of our own.
+
+## Description
+The `MyToken` contract defines a basic token with the name "META" and abbreviation "MTA". It utilizes a mapping to keep track of token balances for each address. The `mint` function increases the total token supply and adds tokens to a specified address. Conversely, the `burn` function reduces the total supply and removes tokens from an address if the balance is sufficient.
+
+
+## Getting Started
+
+### Installing
+
+This program can be run on remix ethereum ide
+
+### Executing program
+
+just turn on auto cumpile or can compile manually and then after compilation 
+in the deploy section see the addresses and then play with the number of 
+tokens by minting ad burning them and see if it works.
+
+## Author
+
+Ayush Singh
